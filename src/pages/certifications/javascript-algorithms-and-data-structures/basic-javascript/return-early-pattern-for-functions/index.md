@@ -3,8 +3,18 @@ title: Return Early Pattern for Functions
 ---
 ## Return Early Pattern for Functions
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/certifications/javascript-algorithms-and-data-structures/basic-javascript/return-early-pattern-for-functions/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Here is a solution：
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```js
+function abTest(a, b) {
+  // Only change code below this line
+  var c; 
+  if(a<0||b<0){
+    return c;
+  }
+  
+  // Only change code above this line
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+  ```
+}
